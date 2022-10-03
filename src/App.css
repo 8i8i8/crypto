@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+body {
+  padding-top: 70px;
+  height: 80%;
+}
+
+.table {
+  width: 50%;
+}
+.img {
+  width: 30px;
+  height: 30px;
+}
+.image {
+  width: 130px;
+  height: 40px;
+}
+.thead {
+  color: black;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.green {
+  background-color: #18c683;
+  color: white;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  top: 0;
+  background-color: white;
+}
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(63, 81, 181),
+    rgb(100, 181, 246)
+  );
+  border: none !important;
+}
+.li {
+  margin: 0;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.font {
+  color: black;
+}
+.font:hover {
+  color: black;
+}
+
+.bg-green {
+  animation: animate-green 0.5s forwards;
+}
+@keyframes animate-green {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgba(24, 198, 131, 0.19);
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.bg-red {
+  animation: animate-red 0.5s forwards;
+}
+@keyframes animate-red {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgba(244, 67, 54, 0.19);
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border: 0px;
+}

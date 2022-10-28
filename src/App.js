@@ -11,7 +11,7 @@ function App() {
         <Header />
       </ErrorBoundary>
       <ErrorBoundary>
-        <Table />
+      <Table />
       </ErrorBoundary>
       <ErrorBoundary>
         <Footer />

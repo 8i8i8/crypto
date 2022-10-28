@@ -1,7 +1,14 @@
-import create from "zustand";
 
-const Store = create((set) => ({
-  store: [],
-  add: (data) => set(() => ({ store: [data] })),
-}));
-export default Store;
+
+class Store {
+  constructor() {
+    this.data = null
+  }
+  addStoreData = (data) => {
+    this.data = data
+  }
+  getStoreData = () => {
+    return this.data;
+  }
+}
+export default new Store;
